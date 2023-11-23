@@ -241,7 +241,6 @@
     letter-spacing: 0.1px; 
 }
 .rt{
-    text-align: left;
     color: var(--grayscale-gray, #9FA2B4);
 }
 
