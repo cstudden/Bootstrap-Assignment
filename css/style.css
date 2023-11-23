@@ -188,7 +188,6 @@
 
 /*below graph 2 col */
 .col {
-    text-align: left;
     font-family: Mulish;
     font-size: 12px;
     font-style: normal;
@@ -196,7 +195,6 @@
     letter-spacing: 0.1px; 
 }
 .rt{
-    text-align: left;
     color: var(--grayscale-gray, #9FA2B4);
 }
 
