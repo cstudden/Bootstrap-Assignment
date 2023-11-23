@@ -48,6 +48,7 @@
     margin-bottom: 40px; /* Adjust this value to increase or decrease space */
   }
 
+  /* Align Dashboard kit and icon */
 .col-sm-2 > div > div {
     display: inline-flex;
     align-items: center;
@@ -146,26 +147,58 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.4px;
+    text-align: left;
+    margin-top: 5px;
 }
-
-#graphSub {
+.col-overview {
+    color: var(--grayscale-black, #252733);
+    font-family: Mulish;
+    padding-right: 750px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+.graphSub {
     color: var(--grayscale-gray, #9FA2B4);
     font-family: Mulish;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.1px;
+    text-align: left;
+    margin-top: 5px;
+}
+.graphBub {
+    color: var(--grayscale-gray, #9FA2B4);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-align: right;
+    margin-top: 5px;
+    padding-left: 20px !important;
+}
+
+.d-flex {
+    margin-right: 20px;
 }
 
 /*below graph 2 col */
 .col {
-    text-align: left;
+    text-align: center;
 }
 /* Right Side Graph List */
 .list-group-flush-graph .list-group-item {
     margin-bottom: 20px;
 }
 
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .item-content {
     display: flex;
     flex-direction: column;
