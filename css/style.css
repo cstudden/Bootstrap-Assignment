@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish&display=swap');
+
+.text {
+    font-family: Mulish;
+}
+.overview{
+    text-align: left;
+    font-size: 20px;
+}
+  
+.col-sm-2 > div > div {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Display icons sidebyside with text on sidebar */
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+/* 4 Boxes */
+.fourBox .col{
+    width: 50px;
+    height: 150px;
+    margin: 10px;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 5px;
+    color: gray;
+}
+
+/* Four Box Numbers*/
+.number {
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #252733;
+    margin-top: 25px;
+}
+
+.highlight {
+    color: #3751FF;
+}
+/* Overdew purple number */
+.purple {
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #3751FF;
+    margin-top: 25px;
+}
+
+
+/* Graph Box */
+.graph .col-8 {
+    width: 798px;
+    height: 450px;
+    border: solid 1px;
+}
+
+.graph .col-4 {
+    width: 390px;
+    height: 450px;
+    border: solid 1px;
+}
+
+ /*Graph Right Side Information  */
+ .graph-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.graph-list-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#graphTitle {
+    color: var(--grayscale-black, #252733);
+    font-family: Mulish;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+#graphSub {
+    color: var(--grayscale-gray, #9FA2B4);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
