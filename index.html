@@ -280,25 +280,38 @@
               <div class="col">
                 <ul class="UT list-group list-group-flush"> Unresolved Tickets
                   <p>Group: Support</p>
-                  <span>View details</span>
+                  <span class="link">View details</span>
                   <li class="list-group-item d-flex justify-content-between align-items-center" > Waiting on a Feature Request
-                    <span class="disabled"> 4238</span>
+                    <span class="rt"> 4238</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center" > Awaiting Customer Response
-                    <spa> 1005</span>
+                    <span class="rt"> 1005</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center" > Awaiting Developer Fix
-                    <span> 914</span>
+                    <span class="rt"> 914</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center" > Pending
-                    <span> 281</span>
+                    <span class="rt"> 281</span>
                   </li>
                  
                 </ul>
               </div>
               <div class="col"> Tasks
                 <p>Today</p>
-                <ul class="Tasks list-group list-group-flush">
+                <span class="link">View all</span>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" checked>Finish ticket update</label>
+                  <span class="lt">URGENT</span>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Create new ticket example</label>
+                  <span class="lt">NEW</span>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" disabled>Update ticket report</label>
+                  <span class="lt">DEFAULT</span>
+              </div>
+              <!-- <ul class="Tasks list-group list-group-flush">
                   <li class="list-group-item d-flex justify-content-between align-items-center" > Create New Task
                     <span> + </span>
                   </li>
@@ -311,8 +324,7 @@
                   <li class="list-group-item d-flex justify-content-between align-items-center" > Update Ticket Report
                     <span>DEFAULT</span>
                   </li>
-                </ul>
-              </div>
+                </ul> -->
             </div>
           </div>
         </div>

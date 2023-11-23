@@ -160,6 +160,24 @@
 /*below graph 2 col */
 .col {
     text-align: left;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px; 
+}
+.rt{
+    text-align: left;
+    color: var(--grayscale-gray, #9FA2B4);
+}
+
+.lt{
+    padding-left: 25px;
+    color: var(--grayscale-gray, #9FA2B4);
+}
+
+.link{
+    color: #3751FF;
 }
 /* Right Side Graph List */
 .list-group-flush-graph .list-group-item {
