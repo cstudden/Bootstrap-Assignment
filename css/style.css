@@ -104,3 +104,8 @@
     font-weight: 400;
     letter-spacing: 0.1px;
 }
+
+/*below graph 2 col */
+.col {
+    text-align: left;
+}
