@@ -245,13 +245,9 @@
 }
 
 .lt{
-    /* padding-left: 70px; */
     color: var(--grayscale-gray, #9FA2B4);
 }
 
-.link{
-    color: #3751FF;
-}
 /* Right Side Graph List */
 .list-group-flush-graph .list-group-item {
     margin-bottom: 20px;
